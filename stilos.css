@@ -81,7 +81,7 @@ header nav a:hover {
     margin-right: none;
     width:3000px;
     height: 2000px;
-    background-image:url("imagenes/nubes1.jpg");
+    background-image:url("nubes1.jpg");
     background-size: contain;
     background-attachment: fixed;
 }
