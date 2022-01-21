@@ -2,7 +2,6 @@
 
 body{
     background-color:whitesmoke;
-    width: 100%;
 }
 
 header{
@@ -80,8 +79,8 @@ header nav a:hover {
 .contenido{
     margin-left: none;
     margin-right: none;
-    width:3000px;
-    height: 2000px;
+    width:100%;
+    height: 100%;
     background-image: url("nubes1.jpg");
     background-size: contain;
     background-attachment: fixed;
@@ -91,7 +90,7 @@ header nav a:hover {
 p1 img{
     width: 750px;
     height: 400px;
-    margin-left: 900px;
+    margin-left: 35%;
 }
 
 .caja2{
