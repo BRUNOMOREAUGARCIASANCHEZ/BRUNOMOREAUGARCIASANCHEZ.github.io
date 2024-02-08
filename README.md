@@ -1,1 +1,0 @@
-# brunomoreaugarciasanchez.github.io
