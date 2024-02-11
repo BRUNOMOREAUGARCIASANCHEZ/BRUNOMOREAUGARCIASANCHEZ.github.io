@@ -3,15 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title align="center" >Pagina con reconocimiento de voz</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="bootstrap.css">
 </head>
 <body>
-    <h1>Pagina con reconocimiento de voz</h1>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Reproductor de videos con reconocimiento de voz<i class="fa fa-circle"></i></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">HOME</a></li>
+            
+            <li><a data-toggle="modal" data-target="#myModal" href="#myModal"><i class="fa fa-envelope-o"></i></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <h1>Video Principal</h1>
     <div class="mainContainer" id="mainContainer">
         <div class="videoDiv" data-gap="20">
-            <figure>
+            <figure id="idFig">
                 <p id="output"></p>
-                <video controls="controls" width="450" src="video1.mp4" id="idVid" >
+                <p >  </p>
+                <video controls="controls" width="450" height="300" src="video1.mp4" id="idVid" >
                     <track src="sub1.vtt" kind="subtitles" srclang="en" label="English" id="idSub" default/>
                 </video>
             </figure>
