@@ -21,7 +21,7 @@ window.onload = function() {
     recognition.onresult = function(event) {
         //COMANDOS DE VOZ
         const transcript = event.results[0][0].transcript;
-        document.getElementById('output').textContent = transcript;
+        document.getElementById('output').textContent = "Comando reconocido: "+transcript;
 
         console.log(transcript);
         if((transcript=="reproducir")||(transcript=="play")||(transcript=="pausa")){
