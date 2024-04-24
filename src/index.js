@@ -117,7 +117,7 @@ let mousePos = new Vector2(0,0);
   });
 
 
-  loadSound("./assets/sample1.mp3");
+  loadSound("../assets/sample1.mp3");
 
 
 })();
